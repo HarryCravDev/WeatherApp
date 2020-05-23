@@ -19,7 +19,7 @@ class UI {
   displayError(term) {
     this.output.innerHTML = `
     <div class="card output p-3 bg-danger">
-        <h3 class="card-title">Input Not Recognised  <i class="em em-cry"></i></h3>
+        <h3 class="card-title">Input Not Recognised  <i class="em em-cry"> </i> <i class="em em-construction"></i></h3>
         <p class="card-text lead">Unfortunately <b>${term}</b> is not recognised, please check if the spelling is correct and try again.</p>
     </div>
     `;
