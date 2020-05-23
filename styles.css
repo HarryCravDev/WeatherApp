@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* height: 100vh; */
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Input Area */
+
+.btnSubmit {
+  width: 10rem;
+}
+
+/* Output */
+.output {
+  width: 500px;
+}
+
+/* icons */
+.em-cry {
+  width: 2.5rem;
+}
+
+.em-umbrella_with_rain_drops,
+.em-earth_africa {
+  width: 4rem;
+}
