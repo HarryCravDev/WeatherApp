@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/flatly/bootstrap.min.css">
+    <!-- Icons -->
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <!-- App Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Title -->
+    <title>Weather.js</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar bg-primary mb-4">
+        <div class="container">
+            <span class="navbar-brand text-white">Weather.JS</span>
+        </div>
+    </nav>
+
+    <!-- User Input -->
+    <div class="container">
+        <div class="card p-5">
+            <h1 class="display-3">Weather App <i class="em em-umbrella_with_rain_drops"></i> <i
+                    class="em em-earth_africa"></i>
+                </i></h1>
+            <p class="lead muted">Enter a location and receive the current weather.</p>
+            <input type="text" class="form-control" placeholder="Enter a location..." id="user-input">
+            <div class="text-center">
+                <button class="btn btn-primary mt-2 btnSubmit" id="userSubmit">Submit!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Output -->
+    <div class="container d-flex justify-content-center mt-5" id="output-area">
+        <p class="lead">Data is displayed here.</p>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="weather.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
